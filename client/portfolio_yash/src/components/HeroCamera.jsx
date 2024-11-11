@@ -9,18 +9,17 @@ const HeroCamera = ({ children, isMobile }) => {
     // Correct target format for camera position
     easing.damp3(
       state.camera.position,
-      [0, 0, 20], // Target position
-      0.25, // Smooth time
+      [0, 0, 20], 
+      0.25,  
       delta
     );
-
-    // Only adjust group rotation if not on mobile
+ 
     if (!isMobile) {
       easing.dampE(
         group.current.rotation,
         [-state.pointer.y / 3, -state.pointer.x / 5, 0], // Target rotation
       
-        0.25, // Smooth time
+        0.25, 
         delta
       );
     }

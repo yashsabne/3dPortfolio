@@ -45,7 +45,7 @@ const Hero = () => {
         </a>
       </div>
 
-        <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans' >
+        <p className='sm:text-3xl text-2xl font-medium text-white text-center font-generalsans my-1' >
           Hi, I am Yash Sabne <span className='waving-hand'>👋</span>
         </p>
 
@@ -64,9 +64,9 @@ const Hero = () => {
             <HeroCamera>
 
               <HackerRoom
-                scale={isMobile ? 0.05 : 0.07}
-                position={isMobile ? [0.5, -3, 0] : [0.5, -5, 0]}
-                rotation={[0.03, -Math.PI-0.03, 0]} />
+                scale={isMobile ? 0.05 : 0.08}
+                position={isMobile ? [0.5, -3, 0] : [0.5, -5.3, 0]}
+                rotation={[0.15, -Math.PI-0.06, 0]} />
             </HeroCamera>
 
             <group>
