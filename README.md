@@ -35,8 +35,8 @@ To get this project up and running on your local machine, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/3d-portfolio.git
-   cd 3d-portfolio
+   git clone  https://github.com/yashsabne/3dPortfolio.git
+   cd 3dPortfolio
    ```
 
 2. **Install Dependencies**:
@@ -69,10 +69,10 @@ To get this project up and running on your local machine, follow these steps:
    - Start the backend server:
      ```bash
      cd server
-     node app.js
+     node index.js
      ```
 
-   - The app should now be running at [http://localhost:3000](http://localhost:3000).
+   - The app should now be running at [http://localhost:5173](http://localhost:5173) (if you are using vite).
 
 ---
 
