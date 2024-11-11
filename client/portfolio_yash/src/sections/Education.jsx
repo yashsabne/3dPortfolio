@@ -12,7 +12,7 @@ const Education = () => {
   return (
     <section className="c-space my-20" id="education">
       <div className="w-full text-white-600 relative">
-        <p className="head-text">Education</p>
+        <p className="head-text">Education   <a target='_blank' href="https://drive.google.com/file/d/11cIFrAUYP0HagBeoqnyYt5VRRO-63_vg/view?usp=sharing"><small style={{ fontSize: '15px' }}>download Resume</small></a></p>
         <div className="work-container">
           <div className="work-canvas">
             <Canvas>
