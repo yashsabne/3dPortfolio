@@ -110,7 +110,7 @@ export const navLinks = [
       desc: 'Explore my interactive 3D portfolio, built using Vite, Three.js, and React, to showcase my self-made projects. This immersive experience highlights my skills in web development, design, and creative coding. Powered by Node.js for backend functionality and Nodemailer for seamless email integration, each project reflects my ability to create modern, user-centric applications. Navigate through stunning 3D visuals and discover how I leverage cutting-edge technologies to bring innovative solutions to life.',
       subdesc:
          '',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://3d-portfolio-roan-nine.vercel.app/',
       logo: '/assets/pro3.jpeg',
       logoStyle: {
         backgroundColor: '#60f5a1',
