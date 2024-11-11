@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import "../styles/alert.css"
 
 const Contact = () => {
-  const formRef = useRef();
+  
   const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [alert, setAlert] = useState({ show: false, text: '', type: 'danger' });
@@ -55,7 +55,7 @@ const Contact = () => {
         <hr/>
       </div> 
       <div className="contact-form lg:w-1/2 mt-8 lg:mt-0 px-6">
-        <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col space-y-7">
+        <form onSubmit={handleSubmit} className="flex flex-col space-y-7">
           <label className="space-y-3">
             <span className="field-label">Full Name</span>
             <input
