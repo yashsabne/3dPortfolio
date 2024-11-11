@@ -1,10 +1,10 @@
 import { Suspense, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-
 import Developer from '../components/Developer.jsx';
 import CanvasLoader from '../components/Loading.jsx';
 import { Educations } from '../constants/index.js';
+import { FaLink } from 'react-icons/fa'; // Corrected import
 
 const Education = () => {
   const [animationName, setAnimationName] = useState('idle');
@@ -12,7 +12,7 @@ const Education = () => {
   return (
     <section className="c-space my-20" id="education">
       <div className="w-full text-white-600 relative">
-        <p className="head-text">Education</p>
+        <p className="head-text">Education   <a target='_blank' href="https://drive.google.com/file/d/11cIFrAUYP0HagBeoqnyYt5VRRO-63_vg/view?usp=sharing"><small style={{ fontSize: '15px' }}>download Resume</small></a></p>
         <div className="work-container">
           <div className="work-canvas">
             <Canvas>

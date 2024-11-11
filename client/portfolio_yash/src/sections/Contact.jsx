@@ -21,7 +21,7 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3001/send', {
+      const response = await fetch('https://threedportfolio-ty3s.onrender.com/send', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
@@ -44,9 +44,9 @@ const Contact = () => {
 
   return (
     <section className="c-space my-20" id="contact">
-    <div className="relative min-h-screen flex  justify-center flex-col lg:flex-row">
+    <div className="relative  flex  justify-center flex-col lg:flex-row">
 
-      <div className="contact-text lg:w-1/2  lg:text-left px-6">
+      <div className="contact-text lg:w-1/2  lg:text-left px-6 ">
         <h3 className="head-text">Let's talk</h3>
         <p className="text-lg text-white-600 mt-3">
           Whether you’re looking to build a new website, improve your existing platform, or bring a unique project to life, I’m here to help.
@@ -54,7 +54,7 @@ const Contact = () => {
         <br/>
         <hr/>
       </div> 
-      <div className="contact-form lg:w-1/2 mt-8 lg:mt-0 px-6">
+      <div className="contact-form lg:w-1/2 lg:mt-0 px-6 ">
         <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col space-y-7">
           <label className="space-y-3">
             <span className="field-label">Full Name</span>
@@ -109,7 +109,6 @@ const Contact = () => {
       </div>
     </div>
   </section>
-  
   );
 };
 

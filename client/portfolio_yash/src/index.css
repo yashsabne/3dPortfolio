@@ -86,18 +86,7 @@ body {
     @apply w-10 h-10 rounded-md p-2 bg-neutral-100 bg-opacity-10 backdrop-filter backdrop-blur-lg flex justify-center items-center;
   }
 
-  /* clients section */
-  .client-container {
-    @apply grid md:grid-cols-2 grid-cols-1 gap-5 mt-12;
-  }
-
-  .client-review {
-    @apply rounded-lg md:p-10 p-5 col-span-1 bg-black-300 bg-opacity-50;
-  }
-
-  .client-content {
-    @apply flex lg:flex-row flex-col justify-between lg:items-center items-start gap-5 mt-7;
-  }
+ 
 
   /*  work experience section */
   .work-container {
@@ -124,11 +113,6 @@ body {
     @apply flex-1 w-0.5 mt-4 h-full bg-black-300 group-hover:bg-black-500 group-last:hidden;
   }
 
-  /* contact section */
-  .contact-container {
-    @apply max-w-xl relative z-10 sm:px-10 px-5 mt-12;
-  }
-
   .field-label {
     @apply text-lg text-white-600;
   }
@@ -144,8 +128,7 @@ body {
   .field-btn_arrow {
     @apply w-2.5 h-2.5 object-contain invert brightness-0;
   }
-
-  /*  footer */
+ 
   .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center bg-black-300 border border-black-200;
   }
@@ -197,30 +180,3 @@ body {
 }
 
 
-.myclass {
-
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-} 
-.field-btn:hover {
-  transition: 0.51s;
-background-color: rgb(112, 112, 241);
-}
- 
-.black-wipe {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  z-index: 10; /* Sits above the content */
-  opacity: 0;
-  transform: translateY(-100%);
-  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
-}
-
-.wipe-active {
-  opacity: 1;
-  transform: translateY(0); /* Wipes in from the top */
-}
