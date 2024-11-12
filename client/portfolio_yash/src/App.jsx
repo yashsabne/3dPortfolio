@@ -18,11 +18,10 @@ export default function App() {
     {/* <div style={{marginTop:'150px'}}>
     </div> */}
     <Footer/>
-<<<<<<< HEAD
-    <Analytics/>
-=======
+ 
+ 
         <Analytics/>
->>>>>>> eba7b885a72ec062d36a0ad465d4b6b171a7b3cd
+ 
   </main>
     
   )
