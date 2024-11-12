@@ -5,6 +5,7 @@ import Contact from './sections/Contact'
 import Projects from './sections/Projects'
 import Education from './sections/Education'
 import Footer from './sections/Footer'
+import { Analytics } from "@vercel/analytics/react"
 export default function App() {
   return (
    <main className='nax-w-7xl mx-auto'> 
@@ -18,6 +19,7 @@ export default function App() {
 
     </div>
     <Footer/>
+        <Analytics/>
   </main>
     
   )
