@@ -1,13 +1,17 @@
-import { useState } from 'react';
+import { useState,useEffect,useRef } from 'react';
 import Globe from 'react-globe.gl';
 import Button from '../components/Button.jsx';
 import { skills } from '../constants/index.js';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { clgYear } from '../constants/index.js';
+import { useMediaQuery } from 'react-responsive';
 
 
 const About = () => {
+
+  const globeRef = useRef();
+  const isMobile = useMediaQuery({ maxWidth: 600 });
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
@@ -18,6 +22,24 @@ const About = () => {
       setHasCopied(false);
     }, 2000);
   };
+  useEffect(() => {
+    const globe = globeRef.current;
+    let rotationSpeed = 4; 
+    if (globe) {  
+      const animate = () => { 
+        const controls = globe.controls();
+       
+        if (controls) {
+          controls.autoRotate = true;
+          controls.autoRotateSpeed = rotationSpeed ; 
+        
+          controls.update();
+        }
+        requestAnimationFrame(animate);  
+      };
+      animate();
+    }
+  }, []);
 
 
   useGSAP(() => {
@@ -69,10 +91,10 @@ const About = () => {
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
-                height={426}
-                width={426}
+               ref={globeRef}
+               height={ isMobile?400:500}  
+               width={isMobile?400:500}
                 backgroundColor="rgba(0, 0, 0, 0)"
-
                 backgroundImageOpacity={0.5}
                 showAtmosphere
                 showGraticules
@@ -84,7 +106,7 @@ const About = () => {
                     lng: 78.9629, 
                     text: 'India',
                     color: 'white',
-                    size: 1
+                    size: 1000
                   }
                 ]}
 
@@ -93,7 +115,7 @@ const About = () => {
             </div>
             <div> 
               <p className="grid-headtext">I am available for both remote and on-site work, committed to delivering high-quality solutions.</p>
-              <p className="grid-subtext">Open to collaborations and projects across various time zones, I ensure timely and efficient delivery regardless of location.</p>
+              <p className="grid-subtext">Open to collaborations and projects across various time zones, I ensure timely and efficient delivery as fast than rotation regardless of location.</p>
               <a href="#contact" className="w-fit">
            
               </a>

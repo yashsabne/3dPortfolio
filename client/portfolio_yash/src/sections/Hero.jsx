@@ -5,8 +5,7 @@ import HackerRoom from '../components/HackerRoom';
 import { useMediaQuery } from 'react-responsive'
  
 import CanvasLoader from '../components/CanvasLoader';
-import Target from '../components/Target';
-import Model from '../components/ReactLogo';
+import Target from '../components/Target'; 
 import ReactLogo from '../components/ReactLogo';
 import Cube from '../components/Cube';
 import HeroCamera from '../components/HeroCamera';
