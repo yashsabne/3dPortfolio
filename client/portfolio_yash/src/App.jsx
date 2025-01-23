@@ -14,9 +14,7 @@ export default function App() {
     <About/>
     <Projects/>
     <Education/>
-    <Contact/>
-    {/* <div style={{marginTop:'150px'}}>
-    </div> */}
+    <Contact/> 
     <Footer/>
  
  

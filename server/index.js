@@ -45,8 +45,7 @@ app.post('/send', (req, res) => {
     res.status(200).send('Email sent successfully');
   });
 });
-
-// Start the server
+ 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });

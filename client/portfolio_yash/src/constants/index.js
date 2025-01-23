@@ -65,6 +65,42 @@ export const navLinks = [
       ],
     },
     {
+      title: 'LendLink - Empowering Group Collaboration and Fair Winner Selection ',
+      desc: ' LendLink is innovative platform designed to simplify group-based activities, enabling users to create or join circles, collaborate effectively,and fairly determine winners through a rotating selection process. The application focuses on fostering transparency and trust amongparticipants, making it ideal for group decision-making, lotteries, and collaborative activities. With features like Group Creation andManagement, Secure Participation, Fair Winner Selection, Real-Time Updates, Screen Recording for Verification, User-Friendly Dashboard,and many more. ',
+      subdesc:
+        'Built as a unique Software-as-a-Service app with React and NodeJs as framework, MongoDb as Database,  CSS, Javascript, ThreeJs and Vite for fast loading frontend.',
+      href: 'https://lend-link-six.vercel.app/',
+      logo: '/assets/pro4.webp',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'MongoDb',
+          path: 'assets/mongodb.png',
+        },
+        {
+          id: 3,
+          name: 'NodeJs',
+          path: '/assets/nodejs.png',
+        },
+        {
+          id: 4,
+          name: 'ExpressJs',
+          path: '/assets/express.png',
+        },
+      ],
+    },
+    {
       title: 'Ecommerce - ecommerce integrated with payments',
       desc: 'A modern e-commerce platform offering a seamless shopping experience with a wide range of products, easy navigation, secure payments, Designed to provide a user-friendly interface, our website ensures a smooth shopping journey, hassle-free checkout process, making online shopping convenient and enjoyable for all users',
       subdesc:
@@ -79,11 +115,6 @@ export const navLinks = [
       spotlight: '/assets/spotlight2.png',
       tags: [
         {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
           id: 2,
           name: 'HTML',
           path: 'assets/html.png',
@@ -93,6 +124,12 @@ export const navLinks = [
           name: 'CSS',
           path: '/assets/css.png',
         },
+        {
+          id: 2,
+          name: 'EJS',
+          path: 'assets/html.png',
+        },
+        
         {
           id: 5,
           name: 'MongoDb',
