@@ -28,42 +28,7 @@ export const navLinks = [
   ];
     
   export const myProjects = [
-    {
-      title: 'RentSmart - Property Listing Platform ',
-      desc: 'RentSmart is a seamless property rental management platform that connects property owners with potential tenants. It offers a user-friendly interface where property owners can list their rental properties with detailed descriptions, images, and pricing. Renters can easily search for properties based on their preferences, view property details, and communicate directly with owners through an integrated chat feature. The platform simplifies the rental process by allowing real-time interactions, handling inquiries, and providing notifications. Built using modern technologies, RentSmart aims to streamline property rentals, making the process efficient and hassle-free for both owners and renters.',
-      subdesc:
-        'Built as a unique Software-as-a-Service app with React and NodeJs as framework, MongoDb as Database,  CSS, Javascript, ThreeJs.',
-      href: 'https://rent-smart.vercel.app/',
-      logo: '/assets/pro1.png',
-      logoStyle: {
-        backgroundColor: '#2A1816',
-        border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
-      },
-      spotlight: '/assets/spotlight1.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'MongoDb',
-          path: 'assets/mongodb.png',
-        },
-        {
-          id: 3,
-          name: 'NodeJs',
-          path: '/assets/nodejs.png',
-        },
-        {
-          id: 4,
-          name: 'ExpressJs',
-          path: '/assets/express.png',
-        },
-      ],
-    },
+  
     {
       title: 'LendLink - Empowering Group Collaboration and Fair Winner Selection ',
       desc: ' LendLink is innovative platform designed to simplify group-based activities, enabling users to create or join circles, collaborate effectively,and fairly determine winners through a rotating selection process. The application focuses on fostering transparency and trust amongparticipants, making it ideal for group decision-making, lotteries, and collaborative activities. With features like Group Creation andManagement, Secure Participation, Fair Winner Selection, Real-Time Updates, Screen Recording for Verification, User-Friendly Dashboard,and many more. ',
@@ -101,11 +66,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Ecommerce - ecommerce integrated with payments',
-      desc: 'A modern e-commerce platform offering a seamless shopping experience with a wide range of products, easy navigation, secure payments, Designed to provide a user-friendly interface, our website ensures a smooth shopping journey, hassle-free checkout process, making online shopping convenient and enjoyable for all users',
+      title: 'Kashvi Online Store - Ecommerce solution',
+      desc: 'Developed a complete e-Commerce solution for Kashvi Creation which includes all the basics to advanced features that have to be implemented in the e-Commerce website focusing enhancing customer reliability. The platform supports efficient inventory management, customer order processing, and a seamless payment system. This is a 10 day project done in the Google Winter of Code Competition held in NIT Sura',
       subdesc:
-        'With Ecommerce, users can experience all the basic features of the ecommerce, madde in mongoDb, ejs, Nodejs, Javascript.',
-      href: 'https://yash-eccomerce.onrender.com/',
+        'With this e-Commerce platform, users can experience all the basic to advanced features of the ecommerce made in ReactJs, Nodejs, Javascript.',
+      href: 'https://kashvi-online-store.vercel.app/',
       logo: '/assets/pro2.jpg',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -123,13 +88,11 @@ export const navLinks = [
           id: 3,
           name: 'CSS',
           path: '/assets/css.png',
+        },{
+        id: 4,
+        name: 'React.js',
+        path: '/assets/react.svg',
         },
-        {
-          id: 2,
-          name: 'EJS',
-          path: 'assets/html.png',
-        },
-        
         {
           id: 5,
           name: 'MongoDb',
@@ -139,6 +102,42 @@ export const navLinks = [
           id: 6,
           name: 'NodeJs',
           path: '/assets/nodejs.png',
+        },
+      ],
+    },
+    {
+      title: 'RentSmart - Property Listing Platform ',
+      desc: 'RentSmart is a seamless property rental management platform that connects property owners with potential tenants. It offers a user-friendly interface where property owners can list their rental properties with detailed descriptions, images, and pricing. Renters can easily search for properties based on their preferences, view property details, and communicate directly with owners through an integrated chat feature. The platform simplifies the rental process by allowing real-time interactions, handling inquiries, and providing notifications. Built using modern technologies, RentSmart aims to streamline property rentals, making the process efficient and hassle-free for both owners and renters.',
+      subdesc:
+        'Built as a unique Software-as-a-Service app with React and NodeJs as framework, MongoDb as Database,  CSS, Javascript, ThreeJs.',
+      href: 'https://rent-smart.vercel.app/',
+      logo: '/assets/pro1.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight1.png',
+      tags: [
+        {
+          id: 1,
+          name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'MongoDb',
+          path: 'assets/mongodb.png',
+        },
+        {
+          id: 3,
+          name: 'NodeJs',
+          path: '/assets/nodejs.png',
+        },
+        {
+          id: 4,
+          name: 'ExpressJs',
+          path: '/assets/express.png',
         },
       ],
     },
@@ -182,17 +181,17 @@ export const navLinks = [
       ],
     },
     {
-      title: 'many more... ',
-      desc: 'and many more such projects available at githhub',
-      href: 'https://github.com/yashsabne', 
-      logo: '/assets/github.svg',
-      logoStyle: {
-        backgroundColor: '#0E1F38',
-        border: '0.2px solid #0E2D58',
-        boxShadow: '0px 0px 60px 0px #2F67B64D',
-      },
-      spotlight: '/assets/spotlight4.png',
-      tags: [],
+        title: 'many more... ',
+        desc: 'and many more such projects available at githhub',
+        href: 'https://github.com/yashsabne', 
+        logo: '/assets/github.svg',
+        logoStyle: {
+          backgroundColor: '#0E1F38',
+          border: '0.2px solid #0E2D58',
+          boxShadow: '0px 0px 60px 0px #2F67B64D',
+        },
+        spotlight: '/assets/spotlight4.png',
+        tags: [],
     } 
   ];
   
